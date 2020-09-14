@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  /* background: grey; */
+  height: 100vh;
+
+}
+.search {
+  height: 20vh;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-purple-technology-background-material-image_127273.jpg");
+  display: flex;
+  justify-content: center;
+}
+.search h1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.search input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  display: inline-block;
+}
+.search button {
+  background: #000;
+  border: none;
+  padding: 9px 6px;
+  border-radius: 0 15px 15px 0;
+}
+/* Output */
+.output {
+  background: #fff;
+  width: 80%;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+  border-radius: 15px;
+}
+.output ul {
+height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 30px;
+}
+.output ul  li {
+height: 100%;
+font-size: 0.7rem;
+color: rgb(112, 112, 112);
+font-weight: 100;
+text-align: left;
+margin-bottom: 10px;
+}
+.bd{
+height: 130%;
+margin-top: -27px;
+width: 1px;
+background: rgb(190, 190, 190);
+}
+.output ul>li>strong{
+margin-top: 10px;
+  color: #000;
+display: block;
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.map{
+height: 80vh;
+margin-top: -120px;
+z-index: -1;
+}
